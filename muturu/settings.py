@@ -142,3 +142,6 @@ STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
 ]
+
+# django-crispy-forms
+CRISPY_TEMPLATE_PACK = "bootstrap4"
