@@ -28,3 +28,4 @@ class CustomUserTests(TestCase):
         self.assertEqual(admin_user.email, 'superadmin@email.com')
         self.assertTrue(admin_user.is_active)
         self.assertTrue(admin_user.is_staff)
+        self.assertTrue(admin_user.is_superuser)
