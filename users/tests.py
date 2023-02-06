@@ -25,3 +25,5 @@ class CustomUserTests(TestCase):
             password='testpass123',
         )
         self.assertEqual(admin_user.username, 'superadmin')
+        self.assertEqual(admin_user.email, 'superadmin@email.com')
+        
