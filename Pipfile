@@ -8,6 +8,7 @@ django = "*"
 environs = "*"
 django-crispy-forms = "*"
 pillow = "*"
+whitenoise = "*"
 
 [dev-packages]
 
